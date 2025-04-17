@@ -1,6 +1,6 @@
 /* 
 
-  Arcify v0.0.9
+  Arcify v0.0.10
   
   author: Anton Kurilov (kurilov.xyz)
   code: github.com/anton0kurilov/arcify
@@ -113,7 +113,7 @@
 :root[privatebrowsingmode="temporary"] #browser {
   background-color: rgba(184, 0, 245, 0.2)!important;
 }
-#urlbar-background, 
-#searchbar {
+:root[privatebrowsingmode="temporary"] #urlbar-background, 
+:root[privatebrowsingmode="temporary"] #searchbar {
   background-color: rgba(184,0,245,0.2)!important;
 }
