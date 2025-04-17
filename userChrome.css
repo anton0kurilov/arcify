@@ -1,6 +1,6 @@
 /* 
 
-  Arcify v0.0.12
+  Arcify v0.0.13
   
   author: Anton Kurilov (kurilov.xyz)
   code: github.com/anton0kurilov/arcify
@@ -17,6 +17,11 @@
 	clip-path: inset(0% 0% 0% 0% round 10px 10px 10px 10px) !important;
 	border-radius: calc(var(--borderRadius) / 2) !important;
 	margin: 0 8px 8px 0 !important;
+}
+
+#tabbrowser-tabpanels {
+	border-radius: calc(var(--borderRadius) / 2) !important;
+	clip-path: inset(0% 0% 0% 0% round 10px 10px 10px 10px) !important;
 }
 
 @media (max-width: 600px) {
