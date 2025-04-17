@@ -2,6 +2,8 @@
 
 Arcify transforms Firefox into a sleek, minimal interface inspired by Arc Browser. It customizes the tab area, address bar, bookmarks, and private browsing appearance to create a more modern and polished look. Ideal for users who want a cleaner, Arc-like browsing experience while keeping the power of Firefox.
 
+![Arcify's screenshot](https://raw.githubusercontent.com/anton0kurilov/arcify/refs/heads/main/.github/screenshot.png)
+
 ## Installation
 
 > ⚠️ Arcify requires **Firefox 136 or later** and works best with **Vertical Tabs** enabled.
