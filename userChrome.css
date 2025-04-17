@@ -10,110 +10,110 @@
 /* round the main content box (tab area */
 
 :root {
-  --borderRadius: 20px;
+	--borderRadius: 20px;
 }
 
 #tabbrowser-tabbox {
-  clip-path: inset(0% 0% 0% 0% round 10px 10px 10px 10px)!important;
-  border-radius: calc(var(--borderRadius) / 2)!important;
-  margin: 0 8px 8px 0!important;
+	clip-path: inset(0% 0% 0% 0% round 10px 10px 10px 10px) !important;
+	border-radius: calc(var(--borderRadius) / 2) !important;
+	margin: 0 8px 8px 0 !important;
 }
 
 @media (max-width: 600px) {
-  #tabbrowser-tabbox {
-    margin: 0px!important;
-  }
+	#tabbrowser-tabbox {
+		margin: 0px !important;
+	}
 }
 
-:root[sizemode="fullscreen"] #tabbrowser-tabbox {
-  clip-path: inset(0% 0% 0% 0% round 0px);
-  margin: 0!important;
+:root[sizemode='fullscreen'] #tabbrowser-tabbox {
+	clip-path: inset(0% 0% 0% 0% round 0px);
+	margin: 0 !important;
 }
 
 /* remove top border from navigation bar */
 #nav-bar {
-  border-top: 0!important;
+	border-top: 0 !important;
 }
 
 /* add vertical padding to navbar and bookmarks bar */
 
 #nav-bar-customization-target {
-  padding: 3px 0!important;
+	padding: 3px 0 !important;
 }
 
 #personal-bookmarks {
-  padding: 0 0 3px 0!important;
+	padding: 0 0 3px 0 !important;
 }
 
 /* increase padding for individual bookmark items */
 .bookmark-item {
-  padding: 5px 6.5px!important;
+	padding: 5px 6.5px !important;
 }
 
 /* style the link hover popup (status panel */
 #main-window #statuspanel {
-  margin: 8px;
+	margin: 8px;
 }
 
 #main-window #statuspanel * {
-  padding: 5px 10px!important;
-  border-radius: 20px!important;
-  background-color: rgba(0, 0, 0, 0.5)!important;
-  border: 0.5px solid #777!important;
-  color: #fff!important;
-  backdrop-filter: blur(30px)!important;
+	padding: 5px 10px !important;
+	border-radius: 20px !important;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	border: 0.5px solid #777 !important;
+	color: #fff !important;
+	backdrop-filter: blur(30px) !important;
 }
 
 /* style the address and search bars */
-#urlbar-background, 
+#urlbar-background,
 #searchbar {
-  background-color: rgba(79,79,79,0.9)!important;
-  backdrop-filter: blur(30px)!important;
-  border: 1px solid #555!important;
-  border-radius: var(--borderRadius)!important;
+	background-color: rgba(79, 79, 79, 0.9) !important;
+	backdrop-filter: blur(30px) !important;
+	border: 1px solid #555 !important;
+	border-radius: var(--borderRadius) !important;
 }
 
-.identity-box-button, 
+.identity-box-button,
 #tracking-protection-icon-container,
 .urlbar-page-action {
-  border-radius: var(--borderRadius)!important;
+	border-radius: var(--borderRadius) !important;
 }
 
 /* style tab group labels */
 
 .tab-group-label {
-  width: 100%!important;
-  cursor: pointer!important;
-  opacity: 0.8;
-  outline: 0!important;
-  color: #fff!important;
+	width: 100% !important;
+	cursor: pointer !important;
+	opacity: 0.8;
+	outline: 0 !important;
+	color: #fff !important;
 }
 
-.tab-group-label[aria-expanded="true"] {
-  background-color: transparent!important;
-  text-align: left!important;
+.tab-group-label[aria-expanded='true'] {
+	background-color: transparent !important;
+	text-align: left !important;
 }
 
 /* style the fullscreen warning popup */
 
 .pointerlockfswarning {
-  border-radius: var(--borderRadius)!important;
-  background-color: rgba(0, 0, 0, 0.4)!important;
-  backdrop-filter: blur(30px)!important;
-  border: 0!important;
+	border-radius: var(--borderRadius) !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	backdrop-filter: blur(30px) !important;
+	border: 0 !important;
 }
 
 #fullscreen-exit-button {
-  display: none!important;
+	display: none !important;
 }
 
 /* tint private windows with a purple hue */
 
-:root[privatebrowsingmode="temporary"] #navigator-toolbox,
-:root[privatebrowsingmode="temporary"] #browser {
-  background-color: rgba(184, 0, 245, 0.2)!important;
+:root[privatebrowsingmode='temporary'] #navigator-toolbox,
+:root[privatebrowsingmode='temporary'] #browser {
+	background-color: rgba(184, 0, 245, 0.2) !important;
 }
-:root[privatebrowsingmode="temporary"] #urlbar-background, 
-:root[privatebrowsingmode="temporary"] #searchbar {
-  background-color: rgba(184,0,245,0.2)!important;
+:root[privatebrowsingmode='temporary'] #urlbar-background,
+:root[privatebrowsingmode='temporary'] #searchbar {
+	background-color: rgba(184, 0, 245, 0.2) !important;
 }
