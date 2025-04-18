@@ -1,13 +1,13 @@
 /* 
 
-  Arcify v0.0.13
+  Arcify v0.0.14
   
   author: Anton Kurilov (kurilov.xyz)
   code: github.com/anton0kurilov/arcify
 
 */
 
-/* round the main content box (tab area */
+/* round the main content box (tab area) */
 
 :root {
 	--borderRadius: 20px;
@@ -147,5 +147,5 @@ tab-group:hover {
 }
 :root[privatebrowsingmode='temporary'] #urlbar-background,
 :root[privatebrowsingmode='temporary'] #searchbar {
-	background-color: rgba(184, 0, 245, 0.2) !important;
+	background-color: rgba(0, 0, 0, 0.1) !important;
 }
